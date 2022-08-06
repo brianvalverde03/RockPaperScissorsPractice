@@ -73,7 +73,6 @@ def players_choice():
 def cpu_response():
     randomNum = random.randint(1,3)
     if randomNum == 1:
-        computerMove = 'r'
         print('Rock')
         game_result()
     elif randomNum == 2:
