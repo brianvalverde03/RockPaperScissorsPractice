@@ -116,7 +116,7 @@ def game_result():
         print('{}s Wins, {}s Losses, {}s Ties'.format(wins, losses, ties))
 
 def start_game():
-    print('Please choose your move: (r)ock, (p)aper, or (s)cissors.')
+    print('Please choose your move: rock(1), paper(2), scissors(3)')
     players_choice()
 
 
